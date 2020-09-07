@@ -1,0 +1,15 @@
+{
+	"cards": [{
+		"id": "livingroom1",
+		"title": "Wohnzimmer 1",
+		"manifest": "model/cardLivingroomState.json",
+		"rows": 2,
+		"columns": 3
+	}, {
+		"id": "livingroom2",
+		"title": "Wohnzimmer 2",
+		"manifest": "model/cardLivingroomState.json",
+		"rows": 2,
+		"columns": 3
+	}]
+}

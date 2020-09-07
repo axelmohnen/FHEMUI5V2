@@ -1,0 +1,14 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "cardDummyId",
+		"type": "card"
+	},
+	"sap.card": {
+		"type": "List",
+		"header": {
+			"title": "Drop your cards here...",
+			"subTitle": ""
+		}
+	}
+}

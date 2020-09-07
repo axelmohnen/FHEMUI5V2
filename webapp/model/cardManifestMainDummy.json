@@ -1,0 +1,7 @@
+{
+	"id": "DUMMY",
+	"title": "Drop your cards here...",
+	"manifest": "model/cardDummy.json",
+	"rows": 2,
+	"columns": 3
+}

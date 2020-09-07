@@ -1,0 +1,38 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "cardLivingroomStateId",
+		"type": "card",
+		"DeviceId": ""
+	},
+	"sap.card": {
+		"type": "List",
+		"header": {
+			"title": "Wohnzimmer",
+			"subTitle": "",
+			"icon": {
+				"src": "sap-icon://temperature"
+			}
+		},
+		"content": {
+			"data": {
+				"json": [{
+					"Name": "Temperatur (°C)",
+					"ReadingId": "",
+					"ReadingVal": "22",
+					"Highlight": "Error"
+				}, {
+					"Name": "Luftfeuchtigkeit (%)",
+					"ReadingId": "",
+					"ReadingVal": "55",
+					"Highlight": "Warning"
+				}]
+			},
+			"item": {
+				"title": "{Name}",
+				"description": "{ReadingVal}",
+				"highlight": "{Highlight}"
+			}
+		}
+	}
+}
